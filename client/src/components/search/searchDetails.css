@@ -1,0 +1,161 @@
+.search_link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.search_detail {
+  margin: 2% 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 3px 4px 10px rgb(214, 213, 213);
+  padding: 2% 5%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.search_detail_top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 4% 0;
+}
+/* design destination part  */
+.search_destination {
+  display: flex;
+  flex-direction: column;
+}
+.search_destination_details {
+  display: grid;
+  grid-template-columns: 20% 15% 65%;
+}
+.search_destination_details > p {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.3rem;
+  padding-right: 10px;
+  color: #054752;
+  font-weight: bold;
+}
+/* design price part  */
+.search_price {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+.search_price > p {
+  color: #054752;
+  font-weight: bolder;
+}
+/* design places part  */
+.search_places_icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.search_places {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.search_places > .search_places_details > ul {
+  display: flex;
+  list-style: none;
+}
+.search_places > .search_places_details > ul > li {
+  padding: 5px;
+  font-size: 0.8rem;
+  color: gray;
+}
+.search_detail_bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2% 0;
+}
+/* design road_driver profil  */
+.road_driver {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+}
+.road_driver > .road_driver_image {
+  margin-right: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.road_driver > .road_driver_image > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.road_driver > .road_driver_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* design Stepper  */
+.step {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: cream;
+  overflow: hidden;
+}
+.v-stepper {
+  position: relative;
+}
+.step .circle {
+  background-color: white;
+  border: 3px solid #054752;
+  border-radius: 100%;
+  width: 8px; /* +6 for border */
+  height: 8px;
+  display: inline-block;
+}
+
+.step .line {
+  top: 17px;
+  left: 35%;
+  height: 120px;
+  position: absolute;
+  border-left: 4px solid #054752;
+}
+.step .circle_bottom {
+  background-color: white;
+  border: 3px solid #054752;
+  border-radius: 100%;
+  width: 8px; /* +6 for border */
+  height: 8px;
+  display: inline-block;
+}
+.step .line_bottom {
+  top: -17px;
+  left: 35%;
+  height: 100%;
+  position: absolute;
+  border-left: 4px solid #054752;
+}
+
+@media (max-width: 426px) {
+    .search_destination_details {
+        grid-template-columns: 25% 25% 50%;
+    }
+}
+@media (max-width: 376px) {
+    .search_destination_details {
+        grid-template-columns: 30% 20% 50%;
+    }
+}
+@media (max-width: 322px) {
+    .search_destination_details {
+        grid-template-columns: 35% 20% 45%;
+    }
+}

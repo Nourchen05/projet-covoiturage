@@ -1,0 +1,57 @@
+.home_how{
+    min-height: 400px;
+    background-color: #054752;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding : 0 10%
+}
+
+.home_how > .how_item {
+    background-color: white;
+    width: 60%;
+    padding : 30px ; 
+    border-radius: 10px;
+}
+.home_how > .how_item > .how_icon_wrapper {
+    width: 100%;
+    text-align: center;
+}
+.home_how > .how_item > h3 {  
+    padding : 15px 0 ; 
+    width: 100%;
+    text-align: center;
+}
+.how_icon{
+    font-size: 2rem;
+    color :#708C91; 
+}
+
+
+@media (max-width:1025px){
+    .home_how{
+        min-height: 400px;
+        padding : 0 2%
+    }
+    
+}
+@media (max-width:769px){
+    .home_how{
+        grid-template-columns: 1fr;
+        padding : 2% 0;
+    }
+    .home_how > .how_item {
+        width: 50%;
+        margin : 2% 0;
+    }
+}
+@media (max-width:426px){
+    .home_how > .how_item {
+        background-color: white;
+        width: 60%;
+        padding : 30px ; 
+        border-radius: 10px;
+        margin : 2% 0;
+    }
+}

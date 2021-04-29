@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 2% 25%;
+  min-height: 80vh;
+}
+/* this is for user profil container */
+.param_container {
+  min-height: 80vh;
+  padding: 2% 10%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #054752;
+}
+p {
+  color: #708c91;
+  line-height: 1.7rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 2%;
+  text-align: center;
+}
+
+/* ************************ **** ************************ */
+/* ************************ CSS FORM  ************************ */
+/* ************************ ***** ************************ */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input,
+textarea {
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  color: gray;
+  font-weight: 500;
+  font-size: 0.9rem;
+  background-color: #f1f1f1;
+  width: 95%;
+  padding: 20px 10px;
+  margin: 1%;
+}
+::placeholder {
+  color: #a7a4a4;
+}
+select {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #a7a4a4;
+  padding: 20px 10px;
+  background-color: #f1f1f1;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border: 3px solid #00aff5;
+}
+
+/* ************************ **** ************************ */
+/* ************************ Link , Button and icons  ************************ */
+/* ************************ ***** ************************ */
+.link_style {
+  text-decoration: none;
+  color: #00aff5;
+  display: flex;
+  align-items: center;
+}
+.link_style_dropdown {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color :#054752; 
+  width: 100%;
+}
+.link_style_btn {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  padding: 15px 40px;
+  text-align: center;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  background-color: #00aff5;
+  font-size: 1rem;
+  margin: 10px 0;
+  cursor: pointer;
+  outline: none;
+}
+.drop_icon {
+  font-size: 1.6rem;
+  margin-right: 5%;
+}
+
+.social_icon {
+  height: 30px;
+  width: 30px;
+  color: #708c91;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.social_icon:hover {
+  color: #00aff5;
+}
+.contact_icon {
+  height: 20px;
+  width: 20px;
+  padding: 0 20px 0 0;
+  color: #708c91;
+}
+.userprofil_icon {
+  font-size: 1.2rem;
+  color: gray;
+}
+.parameter_icon {
+  font-size: 1.8rem;
+  color: gray;
+  cursor: pointer;
+}
+.seat_icon {
+  color: gray;
+  font-size: 1.5rem;
+}
+.profile_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+/* profil container  */
+.userprofil_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 2% 5%;
+  /* background-color: #ededed; */
+  border-bottom: 2px solid #ededed;
+  margin: 2% 0;
+  /* border-radius: 10px; */
+  cursor: pointer;
+}
+.userprofil_header_clicked {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 2% 5%;
+  background-color: #fafafa;
+  box-shadow: 1px 3px 5px #f1f1f1;
+  border-bottom: 2px solid #ededed;
+  margin: 2% 0;
+}
+.userprofil_header_clicked > p {
+  color: #00aff5;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.userprofil_header > p {
+  color: #00aff5;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+@media (max-width:1025px) {
+  .container{
+    padding: 2% 20%;
+  }
+  .title {
+    font-size: 2.9rem;
+  }
+}
+@media (max-width:769px) {
+  .container{
+    padding: 2% 15%;
+  }
+  .title {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width:426px) {
+  .container{
+    padding: 5%;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+}

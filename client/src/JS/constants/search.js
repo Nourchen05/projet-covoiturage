@@ -1,0 +1,4 @@
+export const TOGGLE_SEARCH="TOGGLE_SEARCH"
+export const TOGGLE_SEARCHED="TOGGLE_SEARCHED"
+
+export const SET_SEARCH="SET_SEARCH"

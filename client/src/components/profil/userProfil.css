@@ -1,0 +1,34 @@
+.user_profil{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_profil > .user_profil_image {
+    padding:5% 0 2% 0;
+}
+.user_profil > .user_profil_image > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+.user_profil_fullname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 0 0 2% 0;
+}
+.user_profil_mail {
+    padding : 2% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.user_profil_bio {
+    margin-top: 2%;
+    padding :5% 20%; 
+    border: 1px solid gray;
+    border-radius: 10px;
+}

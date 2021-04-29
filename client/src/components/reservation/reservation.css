@@ -1,0 +1,38 @@
+.reservation_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reservation_header > p {
+    color: #054752;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2%;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+.reservation_header > .p_clicked{
+    color: #00aff5;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid #00aff5 ;
+    box-shadow: 1px 3px 5px #ededed;
+    
+}
+.reservation_header > p:hover {
+    color: #00aff5;
+    background-color: #fafafa;
+
+}
+.request {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f1f1f1;
+    padding: 2% 5%;
+    border-radius: 10px;
+    margin : 2% 0;
+}

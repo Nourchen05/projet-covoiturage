@@ -1,0 +1,13 @@
+// LOAD AND FAIL 
+export const LOAD_USER = "LOAD_USER"
+export const FAIL_USER = "FAIL_USER"
+//REGISTER 
+export const REGISTER_USER = "REGISTER_USER"
+//LOGIN
+export const LOGIN_USER = "LOGIN_USER"
+//LOGOUT
+export const LOGOUT_USER = "LOGOUT_USER"
+//ROLE USERS 
+export const GET_CURRENT="GET_CURRENT"
+//GET USER BY ID 
+export const GET_USER_ID="GET_USER_ID"

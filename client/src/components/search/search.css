@@ -1,0 +1,19 @@
+.field_search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field_search > form > .form_part {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+  grid-gap:2%;
+  align-items: center;
+}
+
+.result_search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

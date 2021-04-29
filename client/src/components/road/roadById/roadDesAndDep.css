@@ -1,0 +1,24 @@
+.road_dd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 5% 0;
+}
+.road_dd > .road_dd_fields{
+    width: 100%;
+    display:grid ; 
+    grid-template-columns: 10% 10% 50%;
+    align-items: center
+
+}
+.road_dd > .road_dd_fields > p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #054752
+}
+@media (max-width: 426px) {
+    .road_dd > .road_dd_fields {
+        grid-template-columns: 20% 15% 65%;
+    }
+}

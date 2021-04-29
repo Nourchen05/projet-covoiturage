@@ -1,0 +1,50 @@
+.road_id_driver{
+    padding : 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.road_id_driver_details {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding : 10px ; 
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.road_id_driver_details:hover{
+    background-color: #EDEDED;
+
+}
+.road_id_driver_details > img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 999px;
+}
+.road_id_driver_message {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding : 20px  10px; 
+    border-radius: 10px;
+    cursor: pointer;
+    margin : 2% 0;
+}
+.road_id_driver_message:hover {
+    background-color: #EDEDED;
+}
+.road_id_driver_message > .message_icon{
+    color:#00AFF5; 
+    padding-right:  10px;
+    font-size: 1.4rem;
+}
+.road_id_driver_message> p {
+    color :#00AFF5 ;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
